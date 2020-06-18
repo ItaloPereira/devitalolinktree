@@ -1,0 +1,20 @@
+.profile {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.profile .profile__avatar {
+  width: 88px;
+  margin-bottom: 8px;
+}
+
+.profile .profile__name {
+  color: #5271FF;
+  margin-bottom: 4px;
+  font-size: 22px;
+}
+
+.profile .profile__user {
+  font-size: 14px;
+  font-weight: 300;
+}

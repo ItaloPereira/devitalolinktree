@@ -1,0 +1,17 @@
+.paragraph {
+  text-align: center;
+  line-height: 1.2;
+}
+
+.paragraph a {
+  color: #5271FF;
+  text-decoration: underline;
+}
+
+.paragraph .color {
+  color: #5271FF;
+}
+
+.paragraph .strong {
+  font-weight: 500;
+}

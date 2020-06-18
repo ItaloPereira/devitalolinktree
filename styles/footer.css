@@ -1,0 +1,15 @@
+.footer {
+  height: 50px;
+}
+
+.footer .page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.footer .page-wrapper a {
+  margin: 0 8px;
+  font-size: 22px;
+}

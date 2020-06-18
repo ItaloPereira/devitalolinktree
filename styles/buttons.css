@@ -1,0 +1,55 @@
+.button {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+@media (max-width: 352px) {
+  .button {
+    font-size: 14px;
+  }
+}
+
+.button.--primary {
+  border: 2px solid #5271FF;
+}
+
+.button .button__badge {
+  position: absolute;
+  color: #070B06;
+  background: #38b6ff;
+  width: 89px;
+  top: 12px;
+  right: -21px;
+  transform: rotate(45deg);
+}
+
+.button .button__badge.--free {
+  background: #55FF52;
+}
+
+.button .button__badge.--old {
+  background: #B1B1B1;
+  text-decoration: line-through;
+  text-decoration-color: #CC0000;
+}
+
+.button .button__badge.--strong {
+  font-weight: 500;
+}
+
+.button .button__badge.--to-left {
+  right: 4px;
+  top: 17px;
+}
+
+@media (max-width: 352px) {
+  .button .button__badge.--to-left {
+    right: 0px;
+  }
+}
